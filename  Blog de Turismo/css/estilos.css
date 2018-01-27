@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background: url('../images/fondo.jpg') no-repeat fixed center center;
+}
+
+.encabezado .row {
+    padding: 0.5rem;
+	margin-bottom: 3rem;
+	background-color: #9fc6edb3;
+}
+
+img{
+	border-radius: 5px;
+}
+
+.row .col.s6 .logo {
+    width: 90%;
+
+}
+
+.row .menu-bar {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 .75rem;
+    min-height: 1px;
+}
+
+.menu-bar .btn, .btn-large, .btn-flat {
+    padding: 0 1rem;
+    margin-right: 1px;
+}
+
+.menu-bar i.left {
+    float: left;
+    margin-right: 1px;
+}
+
+.nav-content{
+	font-size: 2.5rem;
+	font-family: cursive;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 15px;
+	-webkit-text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	-moz-text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.galeria-redes, .comentarios{
+	padding: 2px;
+	margin-bottom: 3rem;
+}
+
+.oriente img, .costa img , .sierra img{
+	width: 100%;
+	box-shadow: 5px 5px 5px 5px #0006;
+	moz-box-shadow: 5px 5px 5px 5px #0006;
+	webkit-box-shadow: 5px 5px 5px 5px #0006;
+}
+
+.redes-sociales img{
+	width: 4rem;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 2px 2px #0006;
+	moz-box-shadow: 2px 2px 2px 2px #0006;
+	webkit-box-shadow: 2px 2px 2px 2px #0006;
+}
+
+.redes-sociales a{	
+	opacity: .75;
+}
+.redes-sociales a:hover{
+    opacity: 1;
+}
+
+article{
+	margin-bottom: 20px;
+}
+
+.comentarios div article .row{
+	padding: 15px;
+}
+
+.avatar{
+	max-width: 50%;
+	margin-top: 30px;
+}
+
+.page-footer {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 548px) {
+	.menu-bar .btn, .btn-large, .btn-flat {
+	    padding: 0 1rem;
+	    margin-right: 10px;
+	}
+
+
+}
+
+@media (min-width: 994px) {
+
+	.menu-bar .btn, .btn-large, .btn-flat {
+	    padding: 0 1rem;
+	    margin-right: 15px;
+	}
+
+	i.left {
+	    margin-right: 10px;
+	}
+
+	.nav-content{
+		font-size: 3rem;
+	}
+	.row .col.s6 .logo {
+	    width: 230px;
+	}
+	.oriente img{
+		height: 11.7rem;
+	}
+
+	.sierra	img{
+		height: 36rem;
+	}
+
+	.costa img{
+		height: 17.8rem;
+	}
+}
