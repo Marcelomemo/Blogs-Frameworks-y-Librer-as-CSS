@@ -1,0 +1,87 @@
+
+body {
+    background: url('../images/fondo.jpg') no-repeat fixed center center;
+    background-size: cover;
+    height: 100%;
+ }
+
+.contenido{
+	background-color: #9fc6edb3;
+
+}
+
+.encabezado div{
+	border-right: 0;
+	color: #606060;
+	margin-bottom: 1rem;
+	padding: 2px;
+}
+
+.encabezado  div h1{
+	text-shadow: 2px 2px 2px #fff;
+}
+
+.encabezado  div h4{
+	text-shadow: 2px 2px 2px #fff;
+	font-family: cursive;
+	font-weight: bold;
+	text-align: right;
+}
+
+.input-group-button a {
+    font-size: 2rem;
+    padding: 5px;
+    border-radius: 0 3px 3px 0;
+}
+
+.menu-vertical{
+	background-color: ghostwhite;
+	color: #9fc6ed;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.menu-bar ul li {
+    text-align: center;
+    border: 1px double #9fc6ed;
+}
+
+.menu-bar, .favoritos, .historial{
+	margin-top: 30px;
+}
+
+.articulo .articulos{
+	background-color: antiquewhite;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+}
+
+.articulo p{
+	text-align: justify;
+}
+
+.comentario-box div{
+	text-align: end;
+}
+
+.media-object img {
+    max-width: 3rem;
+}
+.media-object{
+	border: 1px solid azure;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+footer div{
+	background-color: brown;
+}
+@media (min-width: 994px) {
+	.encabezado div{
+		border-right: 1px double #cacaca;
+	}
+}
