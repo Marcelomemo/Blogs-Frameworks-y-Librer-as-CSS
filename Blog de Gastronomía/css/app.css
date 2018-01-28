@@ -7,7 +7,6 @@ body {
 
 .contenido{
 	background-color: #9fc6edb3;
-
 }
 
 .encabezado div{
@@ -71,6 +70,7 @@ body {
 .media-object img {
     max-width: 3rem;
 }
+
 .media-object{
 	border: 1px solid azure;
 	padding: 5px;
@@ -80,6 +80,7 @@ body {
 footer div{
 	background-color: brown;
 }
+
 @media (min-width: 994px) {
 	.encabezado div{
 		border-right: 1px double #cacaca;
